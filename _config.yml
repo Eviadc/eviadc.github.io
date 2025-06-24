@@ -9,7 +9,7 @@ description: ''
 keywords:
 author: Eviadc
 language: zh-cn
-timezone: 'UTC+8'
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -101,7 +101,10 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo: https://github.com/Eviadc/eviadc.github.io # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: gh-pages
+
 
 marked:
   gfm: true
