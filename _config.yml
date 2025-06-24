@@ -96,44 +96,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Quieter
-highlight:
-    enable: true
-    line_number: false
-    auto_detect: false
-    tab_replace: ""
-    wrap: true
-    hljs: true
-prismjs:
-    enable: false
-    preprocess: true
-    line_number: true 
-    tab_replace: ""
-
-# 导航
-menus_link:
-    home: /  # 主页
-    categories: /categories  # 文章类别
-    tags: /tags  # 文章标签
-    # archives: /archives  # 文章归档/检索
-    galleries: /galleries  # 相册页面
-    # links: /links  # 友情链接
-    # about: /about  # 关于页
-
-
-# Giscus
-giscus:
-    enable: true  # 只有为 true 才会生效
-    repo: "Eviadc/eviadc.github.io"
-    repo_id: R_kgDOPA6hVQ
-    category: Ideas
-    category_id: DIC_kwDOPA6hVc4Cr63Q
-    mapping: pathname
-    strict: 1
-    reactions-enabled: 1
-    emit_metadata: 0
-    input_position: top
-
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
