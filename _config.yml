@@ -4,79 +4,12 @@
 
 # Site
 title: 'Eviadc的笔记'
-suffix: Eviadc's blog
+subtitle: 
+description: 
 keywords:
 author: Eviadc
-lang: zh-cn
-since_year: 2018
-
+language: zh-cn
 timezone: 'Asia/Shanghai'
-
-about: 
-    author: Nathan Wang
-    protrait: ''
-    description: 浓浓雾中呓语山岭
-
-# 导航
-headers:
-    home: {
-        message: '这里是home',
-        icon: '/images/headers_icon/logo_white.webp'
-    }  # 主页
-    categories:
-        {
-            message: "好像也没分几类",
-            icon: "/images/headers_icon/categories.svg",
-        }
-    tags:
-        {
-            message: "这里是一些展示的标签",
-            icon: "/images/headers_icon/tags.svg",
-        }
-    archives:
-        {
-            # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
-            message: "居然一共才写了 number 篇文章！",
-            message_month: "在 year 年 month 月里写了 number 篇文章！",
-            message_year: "在 year 年里写了 number 篇文章！",
-            icon: "/images/headers_icon/archives.svg",
-        }
-    #galleries:
-    #    {
-    #        message: "有趣的相册~（施工中）",
-    #        icon: "/images/headers_icon/galleries.svg",
-    #    }
-    #links:
-    #    {
-    #        message: "一些神奇小网站~",
-    #        icon: "/images/headers_icon/links.svg",
-    #    }
-    #about:
-    #    {
-    #        message: "关于我",
-    #        icon: "/images/headers_icon/about.svg",
-    #    }
-
-# 网页访问统计
-web_analytics:
-    enable: true  # 需要改为 true
-    busuanzi: true  # 不蒜子访问量统计
-    baidu:  #（替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
-
-# 底部显示的图标（github 或者其他）
-bottom_icon:
-    # 可以多个
-    - {
-          # 描述名称
-          name: "github",
-          # 图标
-          icon: "/images/bottom_icon/github.webp",
-          # 跳转链接
-          link: "",
-      }
-
-wordcount: true
-replaceSpacesWithNbsp: true
 
 
 # URL
@@ -183,21 +116,6 @@ prismjs:
     #username: eviadc
     #password_hash:
     #secret: no this is not a secret but whatever and a supposesd typo toieaf asdhf newfisodfjh
-
-
-
-# Giscus
-giscus:
-    enable: true  # 只有为 true 才会生效
-    repo: Eviadc/eviadc.github.io
-    repo_id: R_kgDOPA6hVQ
-    category: Ideas
-    category_id: DIC_kwDOPA6hVc4Cr63Q
-    mapping: pathname
-    strict: 1
-    reactions-enabled: 1
-    emit_metadata: 0
-    input_position: top
 
 
 # Deployment
