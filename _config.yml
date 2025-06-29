@@ -110,10 +110,10 @@ prismjs:
     line_number: true 
     tab_replace: ""
 
-admin:
-    username: eviadc
-    password_hash:
-    secret: no this is not a secret but whatever and a supposesd typo toieaf asdhf newfisodfjh
+#admin:
+    #username: eviadc
+    #password_hash:
+    #secret: no this is not a secret but whatever and a supposesd typo toieaf asdhf newfisodfjh
 
 # 导航
 menus_link:
