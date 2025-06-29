@@ -4,16 +4,85 @@
 
 # Site
 title: 'Eviadc的笔记'
-subtitle: '浓浓雾中呓语山岭'
-description: ''
+suffix: Eviadc's blog
 keywords:
 author: Eviadc
-language: zh-cn
+lang: zh-cn
+since_year: 2018
+
 timezone: 'Asia/Shanghai'
+
+about: 
+    author: Nathan Wang
+    protrait: ''
+    description: 浓浓雾中呓语山岭
+
+# 导航
+headers:
+    home: {
+        message: '这里是home',
+        icon: '/images/headers_icon/logo_white.webp'
+    }  # 主页
+    categories:
+        {
+            message: "好像也没分几类",
+            icon: "/images/headers_icon/categories.svg",
+        }
+    tags:
+        {
+            message: "这里是一些展示的标签",
+            icon: "/images/headers_icon/tags.svg",
+        }
+    archives:
+        {
+            # 这里会替换掉两个变量{ year 年，number 总数 } 当然也可以不写这两个变量
+            message: "居然一共才写了 number 篇文章！",
+            message_month: "在 year 年 month 月里写了 number 篇文章！",
+            message_year: "在 year 年里写了 number 篇文章！",
+            icon: "/images/headers_icon/archives.svg",
+        }
+    #galleries:
+    #    {
+    #        message: "有趣的相册~（施工中）",
+    #        icon: "/images/headers_icon/galleries.svg",
+    #    }
+    #links:
+    #    {
+    #        message: "一些神奇小网站~",
+    #        icon: "/images/headers_icon/links.svg",
+    #    }
+    #about:
+    #    {
+    #        message: "关于我",
+    #        icon: "/images/headers_icon/about.svg",
+    #    }
+
+# 网页访问统计
+web_analytics:
+    enable: true  # 需要改为 true
+    busuanzi: true  # 不蒜子访问量统计
+    baidu:  #（替换）百度统计的 Key，参见 https://tongji.baidu.com/sc-web/10000033910/home/site/getjs?siteId=13751376 代码获取中 hm.js? 后边的字符串
+
+# 底部显示的图标（github 或者其他）
+bottom_icon:
+    # 可以多个
+    - {
+          # 描述名称
+          name: "github",
+          # 图标
+          icon: "/images/bottom_icon/github.webp",
+          # 跳转链接
+          link: "",
+      }
+
+wordcount: true
+replaceSpacesWithNbsp: true
+
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://eviadc.github.io
+#url: https://eviadc.github.io
+url: http://localhost:4000/
 permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:
@@ -115,21 +184,12 @@ prismjs:
     #password_hash:
     #secret: no this is not a secret but whatever and a supposesd typo toieaf asdhf newfisodfjh
 
-# 导航
-menus_link:
-    home: /  # 主页
-    categories: /categories  # 文章类别
-    tags: /tags  # 文章标签
-    # archives: /archives  # 文章归档/检索
-    galleries: /galleries  # 相册页面
-    # links: /links  # 友情链接
-    # about: /about  # 关于页
 
 
 # Giscus
 giscus:
     enable: true  # 只有为 true 才会生效
-    repo: "Eviadc/eviadc.github.io"
+    repo: Eviadc/eviadc.github.io
     repo_id: R_kgDOPA6hVQ
     category: Ideas
     category_id: DIC_kwDOPA6hVc4Cr63Q
@@ -142,10 +202,10 @@ giscus:
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: 'git'
-  repo: https://github.com/Eviadc/eviadc.github.io # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: gh-pages
+#deploy:
+#  type: 'git'
+#  repo: git@github.com:Eviadc/eviadc.github.io.git # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+#  branch: gh-pages
 
 # mermaid chart
 mermaid: ## mermaid url https://github.com/knsv/mermaid
